@@ -28,6 +28,20 @@ body {
     border: solid black 1px;
     border-radius: 20px;
     background-color: aliceblue;
+    text-align: right;
+    padding: 10px;
+}
+
+#res01 {
+    height: 25%;
+    width: 100%;
+    font-size: 25px;
+}
+
+#res02 {
+    height: 75%;
+    width: 100%;
+    font-size: 50px;    
 }
 
 #linha1, #linha2, #linha3, #linha4, #linha5 {
@@ -51,7 +65,7 @@ body {
 }
 
 #res {
-    background-color: rgb(0, 166, 255);
+    background-color: rgb(70, 255, 70);
 }
 
 #num_0 {
