@@ -33,13 +33,13 @@ body {
 }
 
 #res01 {
-    height: 25%;
+    height: 25px;
     width: 100%;
     font-size: 25px;
 }
 
 #res02 {
-    height: 75%;
+    height: 75px;
     width: 100%;
     font-size: 50px;    
 }
