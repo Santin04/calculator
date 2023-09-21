@@ -54,7 +54,7 @@ body {
 }
 
 #linha1 div, #linha2 div, #linha3 div, #linha4 div, #virgula, #res {
-    border: 1px solid black;
+    border: 2px solid black;
     height: 100%;
     width: 90px;
     border-radius: 20px;
@@ -68,6 +68,21 @@ body {
     background-color: rgb(70, 255, 70);
 }
 
+#linha1 div button, #linha2 div button, #linha3 div button, #linha4 div button, #virgula button, #res button {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: 0px;
+}
+
+#linha1 div button:hover, #linha2 div button:hover, #linha3 div button:hover, #linha4 div button:hover, #virgula button:hover, #res button:hover{
+    cursor: pointer
+}
+
+#linha1 div button:active, #linha2 div button:active, #linha3 div button:active, #linha4 div button:active, #virgula button:active, #res button:active{
+    background-color: rgb(152, 148, 148);
+}
+
 #num_0 {
     border: 1px solid black;
     height: 100px;
@@ -77,4 +92,19 @@ body {
     align-items: center;
     justify-content: center;
     background-color: aliceblue;
+}
+
+#num_0 button {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: 0px;
+}
+
+#num_0 button:hover {
+    cursor: pointer;
+}
+
+#num_0 button:active {
+    background-color: rgb(152, 148, 148);
 }
