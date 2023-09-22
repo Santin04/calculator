@@ -75,12 +75,20 @@ body {
     border: 0px;
 }
 
+#res button {
+    background-color: rgb(70, 255, 70);
+}
+
 #linha1 div button:hover, #linha2 div button:hover, #linha3 div button:hover, #linha4 div button:hover, #virgula button:hover, #res button:hover{
     cursor: pointer
 }
 
-#linha1 div button:active, #linha2 div button:active, #linha3 div button:active, #linha4 div button:active, #virgula button:active, #res button:active{
+#linha1 div button:active, #linha2 div button:active, #linha3 div button:active, #linha4 div button:active, #virgula button:active {
     background-color: rgb(152, 148, 148);
+}
+
+#res button:active {
+    background-color: rgb(34, 119, 34);
 }
 
 #num_0 {
