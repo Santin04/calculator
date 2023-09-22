@@ -110,12 +110,13 @@ function operacao() {
         res_final = dividi(valor01, valor02);
     }
 
-    res_final = res_final.toFixed(2);
+    res_final = res_final.toFixed(2).toString();
     
-    if (res_final > 13){
+    if (res_final.length > 13){
         window.alert('O valor da conta é muito alto, tente com números menores')
+        console.log(res_final)
     } else {
-        res_final = res_final.toString().replace('.', ',')
+        res_final = res_final.replace('.', ',')
         tela01.innerHTML = '';
         tela02.innerHTML = `${res_final}`
     }
